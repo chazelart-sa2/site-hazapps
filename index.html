@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="assets/Hazapp.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hazapps — Create passionate moments with FUN. Kyojin Quizz, Kyojin Quizz Junior, Caliente et Darties.">
+  <title>Hazapps — Create passionate moments with FUN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Exo+2:wght@400;500;600&family=Nunito:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Rajdhani:wght@600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true">
+    <span class="mesh mesh-a"></span>
+    <span class="mesh mesh-b"></span>
+    <span class="mesh mesh-c"></span>
+  </div>
+
+  <header class="topbar">
+    <a href="index.html" class="topbar__brand" aria-label="Hazapps — accueil">
+      <img src="assets/logo.png" alt="Hazapps" width="140" height="140">
+    </a>
+    <nav class="social-links" aria-label="Réseaux sociaux">
+      <a href="https://www.instagram.com/kyojinquizz/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61593348682160&locale=fr_FR" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://www.tiktok.com/@kyojinquizz" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@KyojinQuizz" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__logo-wrap">
+        <img src="assets/logo.png" alt="Hazapps" class="hero__logo" width="420" height="420">
+      </div>
+      <p class="hero__slogan">
+        Create passionate moments with <span class="hero__fun">FUN</span>
+      </p>
+      <p class="hero__tagline">Des apps qui transforment chaque instant en expérience mémorable.</p>
+      <a href="#apps" class="hero__cta">Découvrir nos apps</a>
+    </section>
+
+    <section class="apps" id="apps" aria-labelledby="apps-title">
+      <p class="apps__eyebrow">Studio</p>
+      <h2 id="apps-title" class="apps__title">Nos applications</h2>
+
+      <div class="tabs" role="tablist" aria-label="Applications Hazapps" data-active="kyojin">
+        <button class="tab tab--kyojin active" role="tab" id="tab-kyojin" aria-selected="true" aria-controls="panel-kyojin" data-tab="kyojin">
+          <img src="assets/KQ_Logo.png" alt="" class="tab__logo" width="28" height="28">
+          <span class="tab__label">Kyojin</span>
+        </button>
+        <button class="tab tab--junior" role="tab" id="tab-junior" aria-selected="false" aria-controls="panel-junior" data-tab="junior">
+          <img src="assets/logo_kqj.png" alt="" class="tab__logo" width="28" height="28">
+          <span class="tab__label">Junior</span>
+        </button>
+        <button class="tab tab--caliente" role="tab" id="tab-caliente" aria-selected="false" aria-controls="panel-caliente" data-tab="caliente">
+          <img src="assets/caliente_icon.png" alt="" class="tab__logo" width="28" height="28">
+          <span class="tab__label">Caliente</span>
+        </button>
+        <button class="tab tab--darties" role="tab" id="tab-darties" aria-selected="false" aria-controls="panel-darties" data-tab="darties">
+          <img src="assets/Logo_App_darties.png" alt="" class="tab__logo" width="28" height="28">
+          <span class="tab__label">Darties</span>
+        </button>
+        <div class="tabs__slider" aria-hidden="true"></div>
+      </div>
+
+      <div class="panels">
+        <article class="panel panel--kyojin active" role="tabpanel" id="panel-kyojin" aria-labelledby="tab-kyojin">
+          <div class="panel__content">
+            <div class="panel__visual">
+              <div class="app-showcase app-showcase--kyojin">
+                <img src="assets/personnage_kyojin_quizz.png" alt="" class="app-showcase__character" width="220" height="320" aria-hidden="true">
+                <div class="app-showcase__logo-ring" aria-hidden="true"></div>
+                <img src="assets/KQ_Logo.png" alt="Logo Kyojin Quizz" class="app-showcase__logo" width="160" height="160">
+              </div>
+            </div>
+            <div class="panel__info">
+              <h3 class="panel__name panel__name--kyojin">Kyojin Quizz</h3>
+              <p class="panel__desc">
+                Plongez dans l'univers des géants ! Testez vos connaissances, défiez vos amis
+                et grimpez au sommet du classement dans un quiz ultra-dynamique et compétitif.
+              </p>
+              <ul class="panel__features">
+                <li><span class="feature-dot"></span>Des milliers de questions passionnantes</li>
+                <li><span class="feature-dot"></span>Médailles sur 14 thèmes différents</li>
+                <li><span class="feature-dot"></span>Devenez le Kyojin chaque saison de 15 jours</li>
+                <li><span class="feature-dot"></span>Univers shonen immersif</li>
+              </ul>
+              <div class="panel__actions panel__actions--stores">
+                <a href="https://apps.apple.com/us/app/kyojin-quizz/id6795064369" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Télécharger Kyojin Quizz sur l'App Store">
+                  <svg class="store-badge__svg" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect width="120" height="40" rx="8" fill="#000"/>
+                    <path fill="#fff" d="M24.7 20.3c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.1 1.7 2.4 3 2.4 1.2 0 1.6-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zm-2.3-6.8c.6-.8 1.1-1.9.9-3-.9.1-2 .6-2.6 1.4-.6.7-1.1 1.8-.9 2.9 1 .1 2-.5 2.6-1.3z"/>
+                    <text x="42" y="15" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="0.2">Download on the</text>
+                    <text x="42" y="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">App Store</text>
+                  </svg>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.kyojin.quiz&pli=1" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Télécharger Kyojin Quizz sur Google Play">
+                  <svg class="store-badge__svg" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect width="135" height="40" rx="8" fill="#000"/>
+                    <path fill="#EA4335" d="M8.5 7.2 20.2 18.9 8.5 30.6c-.6-.3-1-.9-1-1.6V8.8c0-.7.4-1.3 1-1.6z"/>
+                    <path fill="#FBBC04" d="M27.4 19.5 23.5 15.6 20.2 18.9l3.3 3.3 3.9-2.7z"/>
+                    <path fill="#4285F4" d="M27.4 19.5 20.2 12.3 8.5 7.2c.3-.2.6-.3 1-.3.4 0 .8.1 1.1.3l16 9.3c.5.3.8.8.8 1.4 0 .2 0 .3-.1.5z"/>
+                    <path fill="#34A853" d="M20.2 25.5 10.6 32.8c-.3.2-.7.3-1.1.3-.4 0-.7-.1-1-.3L20.2 18.9l3.3 3.3-3.3 3.3z"/>
+                    <text x="36" y="15" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="0.3">GET IT ON</text>
+                    <text x="36" y="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Google Play</text>
+                  </svg>
+                </a>
+                <a href="kyojin-quizz.html" class="btn btn--ghost btn--kyojin">Page dédiée</a>
+              </div>
+            </div>
+          </div>
+          <div class="panel__stats">
+            <div class="stat"><span class="stat__value" data-count="3500">0</span><span class="stat__label">Questions</span></div>
+            <div class="stat"><span class="stat__value" data-count="84">0</span><span class="stat__label">Niveaux</span></div>
+            <div class="stat"><span class="stat__value" data-count="5" data-decimal="true">0</span><span class="stat__label">Note ★</span></div>
+          </div>
+        </article>
+
+        <article class="panel panel--caliente" role="tabpanel" id="panel-caliente" aria-labelledby="tab-caliente" hidden>
+          <div class="panel__content">
+            <div class="panel__visual">
+              <div class="app-showcase app-showcase--caliente">
+                <div class="app-showcase__glow app-showcase__glow--caliente" aria-hidden="true"></div>
+                <img src="assets/logo_caliente.png" alt="Logo Caliente" class="app-showcase__logo app-showcase__logo--caliente" width="320" height="140">
+              </div>
+            </div>
+            <div class="panel__info">
+              <h3 class="panel__name panel__name--caliente">Caliente</h3>
+              <p class="panel__desc">
+                Le plateau des plaisirs coupables. Défis, mini-jeux et ambiances torrides
+                pour pimenter vos soirées à deux — du fun léger au mode plus… caliente.
+              </p>
+              <ul class="panel__features">
+                <li><span class="feature-dot"></span>Plateau interactif &amp; dés 3D</li>
+                <li><span class="feature-dot"></span>Mini-jeux et défis pour couples</li>
+                <li><span class="feature-dot"></span>Modes Standard, Sexy &amp; Quizz</li>
+                <li><span class="feature-dot"></span>Nouveaux contenus chaque mois</li>
+              </ul>
+              <div class="panel__actions panel__actions--stores">
+                <a href="https://play.google.com/store/apps/details?id=com.hazapps.sa2gameV2&hl=fr" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Télécharger Caliente sur Google Play">
+                  <svg class="store-badge__svg" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect width="135" height="40" rx="8" fill="#000"/>
+                    <path fill="#EA4335" d="M8.5 7.2 20.2 18.9 8.5 30.6c-.6-.3-1-.9-1-1.6V8.8c0-.7.4-1.3 1-1.6z"/>
+                    <path fill="#FBBC04" d="M27.4 19.5 23.5 15.6 20.2 18.9l3.3 3.3 3.9-2.7z"/>
+                    <path fill="#4285F4" d="M27.4 19.5 20.2 12.3 8.5 7.2c.3-.2.6-.3 1-.3.4 0 .8.1 1.1.3l16 9.3c.5.3.8.8.8 1.4 0 .2 0 .3-.1.5z"/>
+                    <path fill="#34A853" d="M20.2 25.5 10.6 32.8c-.3.2-.7.3-1.1.3-.4 0-.7-.1-1-.3L20.2 18.9l3.3 3.3-3.3 3.3z"/>
+                    <text x="36" y="15" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="0.3">GET IT ON</text>
+                    <text x="36" y="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Google Play</text>
+                  </svg>
+                </a>
+                <span class="btn btn--ghost btn--caliente btn--disabled" aria-disabled="true">App Store bientôt</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel__stats">
+            <div class="stat"><span class="stat__value" data-count="5">0</span><span class="stat__label">Mini-jeux</span></div>
+            <div class="stat"><span class="stat__value" data-count="3">0</span><span class="stat__label">Modes</span></div>
+            <div class="stat"><span class="stat__value" data-count="4.9" data-decimal="true">0</span><span class="stat__label">Note ★</span></div>
+          </div>
+        </article>
+
+        <article class="panel panel--darties" role="tabpanel" id="panel-darties" aria-labelledby="tab-darties" hidden>
+          <div class="panel__content">
+            <div class="panel__visual">
+              <div class="app-showcase app-showcase--darties">
+                <div class="app-showcase__glow app-showcase__glow--darties" aria-hidden="true"></div>
+                <img src="assets/Logo_App_darties.png" alt="Logo Darties" class="app-showcase__logo app-showcase__logo--darties" width="180" height="180">
+              </div>
+            </div>
+            <div class="panel__info">
+              <h3 class="panel__name panel__name--darties">Darties</h3>
+              <p class="panel__desc">
+                Le compagnon ultime pour vos parties de fléchettes. Comptez les points,
+                suivez vos stats et défiez vos amis — ambiance salle de fléchettes garantie.
+              </p>
+              <ul class="panel__features">
+                <li><span class="feature-dot"></span>Modes X01, Cricket, Shanghai &amp; plus</li>
+                <li><span class="feature-dot"></span>Suivi des stats et historique des parties</li>
+                <li><span class="feature-dot"></span>Multijoueur local et amis Darties</li>
+                <li><span class="feature-dot"></span>Ambiance vintage salle de fléchettes</li>
+              </ul>
+              <div class="panel__actions panel__actions--stores">
+                <a href="https://apps.apple.com/fr/app/darties/id6808642733" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Télécharger Darties sur l'App Store">
+                  <svg class="store-badge__svg" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect width="120" height="40" rx="8" fill="#000"/>
+                    <path fill="#fff" d="M24.7 20.3c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.1 1.7 2.4 3 2.4 1.2 0 1.6-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zm-2.3-6.8c.6-.8 1.1-1.9.9-3-.9.1-2 .6-2.6 1.4-.6.7-1.1 1.8-.9 2.9 1 .1 2-.5 2.6-1.3z"/>
+                    <text x="42" y="15" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="0.2">Download on the</text>
+                    <text x="42" y="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">App Store</text>
+                  </svg>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.hazapps.darties" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Télécharger Darties sur Google Play">
+                  <svg class="store-badge__svg" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect width="135" height="40" rx="8" fill="#000"/>
+                    <path fill="#EA4335" d="M8.5 7.2 20.2 18.9 8.5 30.6c-.6-.3-1-.9-1-1.6V8.8c0-.7.4-1.3 1-1.6z"/>
+                    <path fill="#FBBC04" d="M27.4 19.5 23.5 15.6 20.2 18.9l3.3 3.3 3.9-2.7z"/>
+                    <path fill="#4285F4" d="M27.4 19.5 20.2 12.3 8.5 7.2c.3-.2.6-.3 1-.3.4 0 .8.1 1.1.3l16 9.3c.5.3.8.8.8 1.4 0 .2 0 .3-.1.5z"/>
+                    <path fill="#34A853" d="M20.2 25.5 10.6 32.8c-.3.2-.7.3-1.1.3-.4 0-.7-.1-1-.3L20.2 18.9l3.3 3.3-3.3 3.3z"/>
+                    <text x="36" y="15" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="0.3">GET IT ON</text>
+                    <text x="36" y="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Google Play</text>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="panel__stats">
+            <div class="stat"><span class="stat__value" data-count="5">0</span><span class="stat__label">Modes</span></div>
+            <div class="stat"><span class="stat__value" data-count="2">0</span><span class="stat__label">Plateformes</span></div>
+            <div class="stat"><span class="stat__value" data-count="∞">0</span><span class="stat__label">Parties</span></div>
+          </div>
+        </article>
+
+        <article class="panel panel--junior" role="tabpanel" id="panel-junior" aria-labelledby="tab-junior" hidden>
+          <div class="panel__content">
+            <div class="panel__visual">
+              <div class="app-showcase app-showcase--junior">
+                <div class="app-showcase__glow app-showcase__glow--junior" aria-hidden="true"></div>
+                <img src="assets/logo_kqj.png" alt="Logo Kyojin Quizz Junior" class="app-showcase__logo app-showcase__logo--junior" width="200" height="200">
+              </div>
+            </div>
+            <div class="panel__info">
+              <h3 class="panel__name panel__name--junior">Kyojin Quizz Junior</h3>
+              <p class="panel__desc">
+                Le petit frère de Kyojin Quizz : quiz éducatif fun pour les 6–11 ans (CP à CM2),
+                puis une course d’aventure pour gagner des pièces et personnaliser son avatar.
+              </p>
+              <ul class="panel__features">
+                <li><span class="feature-dot"></span>Questions adaptées CP · CE1 · CE2 · CM1 · CM2</li>
+                <li><span class="feature-dot"></span>Course d’aventure après chaque quiz</li>
+                <li><span class="feature-dot"></span>Classements entre amis uniquement</li>
+                <li><span class="feature-dot"></span>Boutique d’avatars pour personnaliser son héros</li>
+              </ul>
+              <div class="panel__actions">
+                <span class="btn btn--primary btn--junior btn--disabled" aria-disabled="true">Bientôt disponible</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel__stats">
+            <div class="stat"><span class="stat__value" data-count="5">0</span><span class="stat__label">Classes</span></div>
+            <div class="stat"><span class="stat__value" data-count="6">0</span><span class="stat__label">Âge min.</span></div>
+            <div class="stat"><span class="stat__value" data-count="11">0</span><span class="stat__label">Âge max.</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/logo.png" alt="Hazapps" class="footer__logo" width="96" height="96">
+    <p>&copy; 2026 Hazapps. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
